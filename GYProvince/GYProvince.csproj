@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16108AA9-B854-493A-BAC9-BACF03AA5EB0}</ProjectGuid>
+    <ProjectGuid>{7CE432B4-D5A5-4B4C-838F-DB13C07CA4BB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>threeLevel</RootNamespace>
-    <AssemblyName>threeLevel</AssemblyName>
+    <RootNamespace>GYProvince</RootNamespace>
+    <AssemblyName>GYProvince</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,41 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GYCity.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GYCity.Designer.cs">
-      <DependentUpon>GYCity.cs</DependentUpon>
-    </Compile>
     <Compile Include="GZProvince.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GZProvince.Designer.cs">
       <DependentUpon>GZProvince.cs</DependentUpon>
     </Compile>
-    <Compile Include="Logger.cs" />
-    <Compile Include="mainWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="mainWindow.Designer.cs">
-      <DependentUpon>mainWindow.cs</DependentUpon>
-    </Compile>
-    <Compile Include="province.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="province.Designer.cs">
-      <DependentUpon>province.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="GYCity.resx">
-      <DependentUpon>GYCity.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GZProvince.resx">
       <DependentUpon>GZProvince.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="mainWindow.resx">
-      <DependentUpon>mainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="province.resx">
-      <DependentUpon>province.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
