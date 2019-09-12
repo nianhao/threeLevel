@@ -16,5 +16,11 @@ namespace threeLevel
         {
             InitializeComponent();
         }
+
+        private void button_NanMing_Click(object sender, EventArgs e)
+        {
+            control cf = new control();
+            Program.mw.panel_ControlAddForm(cf);
+        }
     }
 }

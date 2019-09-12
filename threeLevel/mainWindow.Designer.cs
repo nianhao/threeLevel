@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panelSelect = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel_Control = new System.Windows.Forms.Panel();
             this.lastLevel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -41,12 +41,13 @@
             this.panelSelect.Size = new System.Drawing.Size(264, 342);
             this.panelSelect.TabIndex = 0;
             // 
-            // panel2
+            // panel_Control
             // 
-            this.panel2.Location = new System.Drawing.Point(340, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(264, 426);
-            this.panel2.TabIndex = 1;
+            this.panel_Control.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_Control.Location = new System.Drawing.Point(340, 12);
+            this.panel_Control.Name = "panel_Control";
+            this.panel_Control.Size = new System.Drawing.Size(359, 426);
+            this.panel_Control.TabIndex = 1;
             // 
             // lastLevel
             // 
@@ -64,7 +65,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lastLevel);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel_Control);
             this.Controls.Add(this.panelSelect);
             this.Name = "mainWindow";
             this.Text = "省市县三级带宽调度系统";
@@ -75,7 +76,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panelSelect;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel_Control;
         private System.Windows.Forms.Button lastLevel;
     }
 }

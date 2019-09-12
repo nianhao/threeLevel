@@ -49,6 +49,7 @@
             this.button_NanMing.TabIndex = 0;
             this.button_NanMing.Text = "南明区";
             this.button_NanMing.UseVisualStyleBackColor = true;
+            this.button_NanMing.Click += new System.EventHandler(this.button_NanMing_Click);
             // 
             // button_YunYan
             // 
