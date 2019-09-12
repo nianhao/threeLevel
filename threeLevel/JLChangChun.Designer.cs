@@ -1,6 +1,6 @@
 ﻿namespace threeLevel
 {
-    partial class GYCity
+    partial class JLChangChun
     {
         /// <summary>
         /// Required designer variable.
@@ -44,113 +44,113 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(14, 196);
+            this.button3.Location = new System.Drawing.Point(11, 196);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 35;
-            this.button3.Text = "清镇市";
+            this.button3.Text = "德惠市";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(63, 29);
+            this.label2.Location = new System.Drawing.Point(60, 29);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 12);
             this.label2.TabIndex = 34;
-            this.label2.Text = "---->贵阳市";
+            this.label2.Text = "---->长春市";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 9);
+            this.label1.Location = new System.Drawing.Point(24, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 12);
             this.label1.TabIndex = 33;
-            this.label1.Text = "---->贵州省";
+            this.label1.Text = "---->吉林省";
             // 
             // button_XiuWen
             // 
-            this.button_XiuWen.Location = new System.Drawing.Point(176, 147);
+            this.button_XiuWen.Location = new System.Drawing.Point(173, 147);
             this.button_XiuWen.Name = "button_XiuWen";
             this.button_XiuWen.Size = new System.Drawing.Size(75, 23);
             this.button_XiuWen.TabIndex = 32;
-            this.button_XiuWen.Text = "修文市";
+            this.button_XiuWen.Text = "榆树市";
             this.button_XiuWen.UseVisualStyleBackColor = true;
             // 
             // button_XiFeng
             // 
-            this.button_XiFeng.Location = new System.Drawing.Point(95, 147);
+            this.button_XiFeng.Location = new System.Drawing.Point(92, 147);
             this.button_XiFeng.Name = "button_XiFeng";
             this.button_XiFeng.Size = new System.Drawing.Size(75, 23);
             this.button_XiFeng.TabIndex = 31;
-            this.button_XiFeng.Text = "息烽县";
+            this.button_XiFeng.Text = "九台市";
             this.button_XiFeng.UseVisualStyleBackColor = true;
             // 
             // button_KaiYang
             // 
-            this.button_KaiYang.Location = new System.Drawing.Point(14, 147);
+            this.button_KaiYang.Location = new System.Drawing.Point(11, 147);
             this.button_KaiYang.Name = "button_KaiYang";
             this.button_KaiYang.Size = new System.Drawing.Size(75, 23);
             this.button_KaiYang.TabIndex = 30;
-            this.button_KaiYang.Text = "开阳县";
+            this.button_KaiYang.Text = "农安县";
             this.button_KaiYang.UseVisualStyleBackColor = true;
             // 
             // button_GuanShanHu
             // 
-            this.button_GuanShanHu.Location = new System.Drawing.Point(176, 100);
+            this.button_GuanShanHu.Location = new System.Drawing.Point(173, 100);
             this.button_GuanShanHu.Name = "button_GuanShanHu";
             this.button_GuanShanHu.Size = new System.Drawing.Size(75, 23);
             this.button_GuanShanHu.TabIndex = 29;
-            this.button_GuanShanHu.Text = "小河区";
+            this.button_GuanShanHu.Text = "双阳区";
             this.button_GuanShanHu.UseVisualStyleBackColor = true;
             // 
             // button_BaiYun
             // 
-            this.button_BaiYun.Location = new System.Drawing.Point(95, 100);
+            this.button_BaiYun.Location = new System.Drawing.Point(92, 100);
             this.button_BaiYun.Name = "button_BaiYun";
             this.button_BaiYun.Size = new System.Drawing.Size(75, 23);
             this.button_BaiYun.TabIndex = 28;
-            this.button_BaiYun.Text = "白云区";
+            this.button_BaiYun.Text = "绿园区";
             this.button_BaiYun.UseVisualStyleBackColor = true;
             // 
             // button_WuDang
             // 
-            this.button_WuDang.Location = new System.Drawing.Point(14, 100);
+            this.button_WuDang.Location = new System.Drawing.Point(11, 100);
             this.button_WuDang.Name = "button_WuDang";
             this.button_WuDang.Size = new System.Drawing.Size(75, 23);
             this.button_WuDang.TabIndex = 27;
-            this.button_WuDang.Text = "乌当区";
+            this.button_WuDang.Text = "二道区";
             this.button_WuDang.UseVisualStyleBackColor = true;
             // 
             // button_HuaXi
             // 
-            this.button_HuaXi.Location = new System.Drawing.Point(176, 53);
+            this.button_HuaXi.Location = new System.Drawing.Point(173, 53);
             this.button_HuaXi.Name = "button_HuaXi";
             this.button_HuaXi.Size = new System.Drawing.Size(75, 23);
             this.button_HuaXi.TabIndex = 26;
-            this.button_HuaXi.Text = "花溪区";
+            this.button_HuaXi.Text = "朝阳区";
             this.button_HuaXi.UseVisualStyleBackColor = true;
             // 
             // button_YunYan
             // 
-            this.button_YunYan.Location = new System.Drawing.Point(95, 53);
+            this.button_YunYan.Location = new System.Drawing.Point(92, 53);
             this.button_YunYan.Name = "button_YunYan";
             this.button_YunYan.Size = new System.Drawing.Size(75, 23);
             this.button_YunYan.TabIndex = 25;
-            this.button_YunYan.Text = "云岩区";
+            this.button_YunYan.Text = "宽城区";
             this.button_YunYan.UseVisualStyleBackColor = true;
             // 
             // button_NanMing
             // 
-            this.button_NanMing.Location = new System.Drawing.Point(14, 53);
+            this.button_NanMing.Location = new System.Drawing.Point(11, 53);
             this.button_NanMing.Name = "button_NanMing";
             this.button_NanMing.Size = new System.Drawing.Size(75, 23);
             this.button_NanMing.TabIndex = 24;
-            this.button_NanMing.Text = "南明区";
+            this.button_NanMing.Text = "南关区";
             this.button_NanMing.UseVisualStyleBackColor = true;
             // 
-            // GYCity
+            // JLChangChun
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -167,14 +167,15 @@
             this.Controls.Add(this.button_HuaXi);
             this.Controls.Add(this.button_YunYan);
             this.Controls.Add(this.button_NanMing);
-            this.Name = "GYCity";
-            this.Text = "贵阳市";
+            this.Name = "JLChangChun";
+            this.Text = "JLChangChun";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
