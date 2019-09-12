@@ -98,7 +98,7 @@
             // 
             // button_XiuWen
             // 
-            this.button_XiuWen.Location = new System.Drawing.Point(172, 184);
+            this.button_XiuWen.Location = new System.Drawing.Point(172, 186);
             this.button_XiuWen.Name = "button_XiuWen";
             this.button_XiuWen.Size = new System.Drawing.Size(75, 23);
             this.button_XiuWen.TabIndex = 8;
@@ -107,7 +107,7 @@
             // 
             // button_XiFeng
             // 
-            this.button_XiFeng.Location = new System.Drawing.Point(91, 184);
+            this.button_XiFeng.Location = new System.Drawing.Point(91, 186);
             this.button_XiFeng.Name = "button_XiFeng";
             this.button_XiFeng.Size = new System.Drawing.Size(75, 23);
             this.button_XiFeng.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             // button_KaiYang
             // 
-            this.button_KaiYang.Location = new System.Drawing.Point(10, 184);
+            this.button_KaiYang.Location = new System.Drawing.Point(10, 186);
             this.button_KaiYang.Name = "button_KaiYang";
             this.button_KaiYang.Size = new System.Drawing.Size(75, 23);
             this.button_KaiYang.TabIndex = 6;
