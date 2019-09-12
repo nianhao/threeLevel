@@ -27,23 +27,5 @@ namespace threeLevel
             GYCity gyc = new GYCity();
             Program.mw.panelSelectAddForm(gyc);
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            GZZunYi gzzy = new GZZunYi();
-            Program.mw.panelSelectAddForm(gzzy);
-        }
-
-        private void button_GZBiJie_Click(object sender, EventArgs e)
-        {
-            GZBiJie gzbj = new GZBiJie();
-            Program.mw.panelSelectAddForm(gzbj);
-        }
-
-        private void button_GZLiuPanShui_Click(object sender, EventArgs e)
-        {
-            GZLiuPanShui gzlps = new GZLiuPanShui();
-            Program.mw.panelSelectAddForm(gzlps);
-        }
     }
 }

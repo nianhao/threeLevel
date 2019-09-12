@@ -56,17 +56,5 @@ namespace threeLevel
             Program.mw.panelSelectAddForm(gzp);
            
         }
-
-        private void SD_Click(object sender, EventArgs e)
-        {
-            SDProvince sdp = new SDProvince();
-            Program.mw.panelSelectAddForm(sdp);
-        }
-
-        private void JL_Click(object sender, EventArgs e)
-        {
-            JLProvince jlp = new JLProvince();
-            Program.mw.panelSelectAddForm(jlp);
-        }
     }
 }

@@ -46,71 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="control.Designer.cs">
+      <DependentUpon>control.cs</DependentUpon>
+    </Compile>
     <Compile Include="GYCity.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GYCity.Designer.cs">
       <DependentUpon>GYCity.cs</DependentUpon>
     </Compile>
-    <Compile Include="GZBiJie.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GZBiJie.Designer.cs">
-      <DependentUpon>GZBiJie.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GZLiuPanShui.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GZLiuPanShui.Designer.cs">
-      <DependentUpon>GZLiuPanShui.cs</DependentUpon>
-    </Compile>
     <Compile Include="GZProvince.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GZProvince.Designer.cs">
       <DependentUpon>GZProvince.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GZZunYi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GZZunYi.Designer.cs">
-      <DependentUpon>GZZunYi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JLChangChun.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JLChangChun.Designer.cs">
-      <DependentUpon>JLChangChun.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JLJiLin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JLJiLin.Designer.cs">
-      <DependentUpon>JLJiLin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JLLiaoYuan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JLLiaoYuan.Designer.cs">
-      <DependentUpon>JLLiaoYuan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JLProvince.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JLProvince.Designer.cs">
-      <DependentUpon>JLProvince.cs</DependentUpon>
-    </Compile>
-    <Compile Include="JLSiPing.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JLSiPing.Designer.cs">
-      <DependentUpon>JLSiPing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SDJiNan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SDJiNan.Designer.cs">
-      <DependentUpon>SDJiNan.cs</DependentUpon>
     </Compile>
     <Compile Include="Logger.cs" />
     <Compile Include="mainWindow.cs">
@@ -127,59 +79,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SDProvince.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SDProvince.Designer.cs">
-      <DependentUpon>SDProvince.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SDQingDao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SDQingDao.Designer.cs">
-      <DependentUpon>SDQingDao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SDYanTai.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SDYanTai.Designer.cs">
-      <DependentUpon>SDYanTai.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SDZiBo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SDZiBo.Designer.cs">
-      <DependentUpon>SDZiBo.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="control.resx">
+      <DependentUpon>control.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GYCity.resx">
       <DependentUpon>GYCity.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GZBiJie.resx">
-      <DependentUpon>GZBiJie.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GZLiuPanShui.resx">
-      <DependentUpon>GZLiuPanShui.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GZProvince.resx">
       <DependentUpon>GZProvince.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GZZunYi.resx">
-      <DependentUpon>GZZunYi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JLChangChun.resx">
-      <DependentUpon>JLChangChun.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JLJiLin.resx">
-      <DependentUpon>JLJiLin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JLLiaoYuan.resx">
-      <DependentUpon>JLLiaoYuan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JLProvince.resx">
-      <DependentUpon>JLProvince.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JLSiPing.resx">
-      <DependentUpon>JLSiPing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainWindow.resx">
       <DependentUpon>mainWindow.cs</DependentUpon>
@@ -195,21 +102,6 @@
     </Compile>
     <EmbeddedResource Include="province.resx">
       <DependentUpon>province.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SDJiNan.resx">
-      <DependentUpon>SDJiNan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SDProvince.resx">
-      <DependentUpon>SDProvince.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SDQingDao.resx">
-      <DependentUpon>SDQingDao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SDYanTai.resx">
-      <DependentUpon>SDYanTai.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SDZiBo.resx">
-      <DependentUpon>SDZiBo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

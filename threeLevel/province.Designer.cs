@@ -28,49 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GZ = new System.Windows.Forms.Button();
-            this.JL = new System.Windows.Forms.Button();
-            this.SD = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // GZ
+            // button1
             // 
-            this.GZ.Location = new System.Drawing.Point(21, 25);
-            this.GZ.Name = "GZ";
-            this.GZ.Size = new System.Drawing.Size(75, 23);
-            this.GZ.TabIndex = 0;
-            this.GZ.Text = "贵州省";
-            this.GZ.UseVisualStyleBackColor = true;
-            this.GZ.Click += new System.EventHandler(this.button_GZProvince_Click);
-            // 
-            // JL
-            // 
-            this.JL.Location = new System.Drawing.Point(21, 111);
-            this.JL.Name = "JL";
-            this.JL.Size = new System.Drawing.Size(75, 23);
-            this.JL.TabIndex = 1;
-            this.JL.Text = "吉林省";
-            this.JL.UseVisualStyleBackColor = true;
-            this.JL.Click += new System.EventHandler(this.JL_Click);
-            // 
-            // SD
-            // 
-            this.SD.Location = new System.Drawing.Point(21, 68);
-            this.SD.Name = "SD";
-            this.SD.Size = new System.Drawing.Size(75, 23);
-            this.SD.TabIndex = 2;
-            this.SD.Text = "山东省";
-            this.SD.UseVisualStyleBackColor = true;
-            this.SD.Click += new System.EventHandler(this.SD_Click);
+            this.button1.Location = new System.Drawing.Point(21, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "贵州省";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button_GZProvince_Click);
             // 
             // Province
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(120, 450);
-            this.Controls.Add(this.SD);
-            this.Controls.Add(this.JL);
-            this.Controls.Add(this.GZ);
+            this.Controls.Add(this.button1);
             this.Name = "Province";
             this.Text = "省份";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Province_FormClosing);
@@ -81,9 +57,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button GZ;
-        private System.Windows.Forms.Button JL;
-        private System.Windows.Forms.Button SD;
+        private System.Windows.Forms.Button button1;
     }
 }
 
