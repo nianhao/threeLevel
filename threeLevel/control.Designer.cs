@@ -199,6 +199,7 @@
             this.button_band2.TabIndex = 16;
             this.button_band2.Text = "确定";
             this.button_band2.UseVisualStyleBackColor = true;
+            this.button_band2.Click += new System.EventHandler(this.button_band2_Click);
             // 
             // button_band3
             // 
@@ -208,6 +209,7 @@
             this.button_band3.TabIndex = 17;
             this.button_band3.Text = "确定";
             this.button_band3.UseVisualStyleBackColor = true;
+            this.button_band3.Click += new System.EventHandler(this.button_band3_Click);
             // 
             // button_band4
             // 
@@ -217,6 +219,7 @@
             this.button_band4.TabIndex = 18;
             this.button_band4.Text = "确定";
             this.button_band4.UseVisualStyleBackColor = true;
+            this.button_band4.Click += new System.EventHandler(this.button_band4_Click);
             // 
             // button_band5
             // 
@@ -226,6 +229,7 @@
             this.button_band5.TabIndex = 19;
             this.button_band5.Text = "确定";
             this.button_band5.UseVisualStyleBackColor = true;
+            this.button_band5.Click += new System.EventHandler(this.button_band5_Click);
             // 
             // button_band6
             // 
@@ -235,6 +239,7 @@
             this.button_band6.TabIndex = 20;
             this.button_band6.Text = "确定";
             this.button_band6.UseVisualStyleBackColor = true;
+            this.button_band6.Click += new System.EventHandler(this.button_band6_Click);
             // 
             // button_band7
             // 
@@ -244,6 +249,7 @@
             this.button_band7.TabIndex = 21;
             this.button_band7.Text = "确定";
             this.button_band7.UseVisualStyleBackColor = true;
+            this.button_band7.Click += new System.EventHandler(this.button_band7_Click);
             // 
             // control
             // 
