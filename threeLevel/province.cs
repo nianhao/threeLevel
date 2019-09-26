@@ -52,6 +52,7 @@ namespace threeLevel
 
         private void button_GZProvince_Click(object sender, EventArgs e)
         {
+
             GZProvince gzp = new GZProvince();
             Program.mw.panelSelectAddForm(gzp);
            

@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bmob-Windows, Version=1.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bmob-Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,12 +53,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bmob\Gloable.cs" />
+    <Compile Include="Bmob\Tool_Bmob.cs" />
     <Compile Include="control.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="control.Designer.cs">
       <DependentUpon>control.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\level_forminitDAO.cs" />
+    <Compile Include="Entity\Table_level_forminit.cs" />
+    <Compile Include="Entity\Table_users.cs" />
+    <Compile Include="GlobalConfig.cs" />
     <Compile Include="GYCity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,11 +126,23 @@
       <DependentUpon>JLSiPing.cs</DependentUpon>
     </Compile>
     <Compile Include="Logger.cs" />
+    <Compile Include="logIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logIn.Designer.cs">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="mainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mainWindow.Designer.cs">
       <DependentUpon>mainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NanMingQv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NanMingQv.Designer.cs">
+      <DependentUpon>NanMingQv.cs</DependentUpon>
     </Compile>
     <Compile Include="province.cs">
       <SubType>Form</SubType>
@@ -157,6 +182,8 @@
     <Compile Include="SDZiBo.Designer.cs">
       <DependentUpon>SDZiBo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tool.cs" />
+    <Compile Include="USER.cs" />
     <EmbeddedResource Include="control.resx">
       <DependentUpon>control.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,8 +217,14 @@
     <EmbeddedResource Include="JLSiPing.resx">
       <DependentUpon>JLSiPing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="logIn.resx">
+      <DependentUpon>logIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mainWindow.resx">
       <DependentUpon>mainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NanMingQv.resx">
+      <DependentUpon>NanMingQv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -201,6 +234,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="province.resx">
       <DependentUpon>province.cs</DependentUpon>
@@ -220,6 +254,7 @@
     <EmbeddedResource Include="SDZiBo.resx">
       <DependentUpon>SDZiBo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -232,6 +267,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\head.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

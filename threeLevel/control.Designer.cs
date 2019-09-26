@@ -41,7 +41,7 @@
             this.textBox_band4 = new System.Windows.Forms.TextBox();
             this.textBox_band5 = new System.Windows.Forms.TextBox();
             this.textBox_band6 = new System.Windows.Forms.TextBox();
-            this.textBoxband7 = new System.Windows.Forms.TextBox();
+            this.textBox_band7 = new System.Windows.Forms.TextBox();
             this.button_Commit = new System.Windows.Forms.Button();
             this.button_band1 = new System.Windows.Forms.Button();
             this.button_band2 = new System.Windows.Forms.Button();
@@ -163,13 +163,13 @@
             this.textBox_band6.TabIndex = 12;
             this.textBox_band6.Text = "2";
             // 
-            // textBoxband7
+            // textBox_band7
             // 
-            this.textBoxband7.Location = new System.Drawing.Point(94, 318);
-            this.textBoxband7.Name = "textBoxband7";
-            this.textBoxband7.Size = new System.Drawing.Size(100, 21);
-            this.textBoxband7.TabIndex = 13;
-            this.textBoxband7.Text = "1";
+            this.textBox_band7.Location = new System.Drawing.Point(94, 318);
+            this.textBox_band7.Name = "textBox_band7";
+            this.textBox_band7.Size = new System.Drawing.Size(100, 21);
+            this.textBox_band7.TabIndex = 13;
+            this.textBox_band7.Text = "1";
             // 
             // button_Commit
             // 
@@ -264,7 +264,7 @@
             this.Controls.Add(this.button_band2);
             this.Controls.Add(this.button_band1);
             this.Controls.Add(this.button_Commit);
-            this.Controls.Add(this.textBoxband7);
+            this.Controls.Add(this.textBox_band7);
             this.Controls.Add(this.textBox_band6);
             this.Controls.Add(this.textBox_band5);
             this.Controls.Add(this.textBox_band4);
@@ -300,7 +300,7 @@
         private System.Windows.Forms.TextBox textBox_band4;
         private System.Windows.Forms.TextBox textBox_band5;
         private System.Windows.Forms.TextBox textBox_band6;
-        private System.Windows.Forms.TextBox textBoxband7;
+        private System.Windows.Forms.TextBox textBox_band7;
         private System.Windows.Forms.Button button_Commit;
         private System.Windows.Forms.Button button_band1;
         private System.Windows.Forms.Button button_band2;

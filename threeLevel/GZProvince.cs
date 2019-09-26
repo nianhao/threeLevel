@@ -36,6 +36,7 @@ namespace threeLevel
 
         private void button_GZBiJie_Click(object sender, EventArgs e)
         {
+            Console.WriteLine("毕节市点击了");
             GZBiJie gzbj = new GZBiJie();
             Program.mw.panelSelectAddForm(gzbj);
         }

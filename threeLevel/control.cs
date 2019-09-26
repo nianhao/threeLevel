@@ -47,37 +47,37 @@ namespace threeLevel
         }
         private void button_band2_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band2.Text);
             string msg = string.Format("{0}={1}", "link2", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
         private void button_band3_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band3.Text);
             string msg = string.Format("{0}={1}", "link3", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
         private void button_band4_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band4.Text);
             string msg = string.Format("{0}={1}", "link4", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
         private void button_band5_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band5.Text);
             string msg = string.Format("{0}={1}", "link5", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
         private void button_band6_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band6.Text);
             string msg = string.Format("{0}={1}", "link6", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
         private void button_band7_Click(object sender, EventArgs e)
         {
-            int bandWidth = Convert.ToInt32(this.textBox_band1.Text);
+            int bandWidth = Convert.ToInt32(this.textBox_band7.Text);
             string msg = string.Format("{0}={1}", "link7", bandWidth);
             udpBandWidthControlCommandSend(msg);
         }
@@ -85,6 +85,22 @@ namespace threeLevel
         private void button_Commit_Click(object sender, EventArgs e)
         {
 
+            string msg = string.Format("{0}={1}"
+                + "&{2}={3}"
+                + "&{4}={5}"
+                + "&{6}={7}"
+                + "&{8}={9}"
+                + "&{10}={11}"
+                + "&{12}={13}",
+                "link1", Convert.ToInt32(this.textBox_band1.Text),
+                "link2", Convert.ToInt32(this.textBox_band2.Text),
+                "link3", Convert.ToInt32(this.textBox_band3.Text),
+                "link4", Convert.ToInt32(this.textBox_band4.Text),
+                "link5", Convert.ToInt32(this.textBox_band5.Text),
+                "link6", Convert.ToInt32(this.textBox_band6.Text),
+                "link7", Convert.ToInt32(this.textBox_band7.Text)
+                );
+            udpBandWidthControlCommandSend(msg);
         }
 
 
